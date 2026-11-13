@@ -1,2 +1,29 @@
+
+# Modelos de MediaPipe (se descargan con download_models.py)
 *.task
+
+# Entornos virtuales
 mp_env/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Cachés y herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local de VS Code
+.vscode/
